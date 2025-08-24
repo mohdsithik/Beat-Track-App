@@ -3,6 +3,11 @@
 // Next type sort and choose Sort Lines Ascending or choose the Descending option.
 
 export default {
+  ///
+
+  white: '#ffffff',
+
+  //
   activeIndicatorColor: '#5C6166',
   inactiveIndicatorColor: '#A5A5A5',
   appThemeColor: '#270045',
@@ -161,7 +166,7 @@ export default {
   transparent: 'transparent',
   white4D6791: '#4D6791',
   whiteF: '#FFFFFF',
-  white: '#ffffff',
+
   white00000000: '#00000000',
   whiteGradient2: '#FFFFFFC3',
   whiteGradient3: '#FCFCFF',

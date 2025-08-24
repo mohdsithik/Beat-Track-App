@@ -1,13 +1,7 @@
+import 'react-native-gesture-handler';
 import React from 'react';
-import { Text, View } from 'react-native';
-import FontStyles from './src/assets/stylesheets/FontStyles';
+import AppNavigator from './src/navigation/AppNavigator';
 
-const App = () => {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center' }}>
-      <Text style={{ ...FontStyles.poppinM12Blue }}>Hello Sithik</Text>
-    </View>
-  );
-};
-
-export default App;
+export default function App() {
+  return <AppNavigator />;
+}
